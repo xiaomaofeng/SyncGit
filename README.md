@@ -28,7 +28,7 @@ and then sync this merged change into the right repo by commit.
 if current commit complemeted, will get the next commit in the left repo, and then repeat it util the left repo is synced with the right repo.
 
 WARNING: the args should be:<br/>
-argv[0]:sync.py
-argv[1]:git repo local path
-argv[2]:.git name, maybe:.git_left as the source repo
+argv[0]:sync.py<br/>
+argv[1]:git repo local path<br/>
+argv[2]:.git name, maybe:.git_left as the source repo<br/>
 argv[3]:.git name, maybe:.git_right as the dest repo
