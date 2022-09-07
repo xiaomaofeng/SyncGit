@@ -2,21 +2,24 @@
 Sync two git repo in one local code
 
 The local folder structure maybe:
-.git
-.git_right
-.gitingore
+
+.git<br/>
+.git_right<br/>
+.gitingore<br/>
 Code
 
 and then:
-.git_left
-.git
-.gitingore
+
+.git_left<br/>
+.git<br/>
+.gitingore<br/>
 Code
 
 last:
-.git
-.git_right
-.gitIngore
+
+.git<br/>
+.git_right<br/>
+.gitIngore<br/>
 Code
 
 The two repo has the same code but only in different remote repo.
