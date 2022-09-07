@@ -27,6 +27,9 @@ the sync script will merge only one commit once.
 and then sync this merged change into the right repo by commit.
 if current commit complemeted, will get the next commit in the left repo, and then repeat it util the left repo is synced with the right repo.
 
+Request:<br/>
+GitPython
+
 WARNING: the args should be:<br/>
 argv[0]:sync.py<br/>
 argv[1]:git repo local path<br/>
